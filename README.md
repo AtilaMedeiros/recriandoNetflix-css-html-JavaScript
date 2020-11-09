@@ -1,7 +1,7 @@
 
 
 ---
-# Cadastro de Alunos - CSharp
+# Site Clone Netflix
 ---
 
 <h1>
@@ -18,7 +18,7 @@
 
 ## 🔖&nbsp; Sobre
 
-Aplicação desenvolvida durante o durso de **C#** para cadastra alunos e notas, lista os cadastrados e exibir média geral com intuito de colocar em pratica o que foi aprendido na linguagem.
+Site desenvolvido com objetivo de por em prática o conhecimento adquirito no curso "Recriando a Interface do Netflix" da Digital Innovation One, ministrado pelo professor Felipe Aguiar. Além do site original, implementei nova funcionalidade no botão "trailer" e "Mais informações" utilizando CSS, HTML e JavaScript. Agora podemos assistir o trailer e saber um pouco mais sobre o filme.
 
 
 ---
@@ -27,7 +27,9 @@ Aplicação desenvolvida durante o durso de **C#** para cadastra alunos e notas,
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [CSharp](https://dotnet.microsoft.com/)
+- [CSS]
+- [HTML]
+- [JavaScript]
 
 
 ---
@@ -37,13 +39,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/AtilaMedeiros/cadastroAluno.git
+    $ git clone https://github.com/AtilaMedeiros/recriandoNetflix-css-html-JavaScript.git
 
-    # Entrar no diretório
-    $ cd cadastroAluno
-
-    # Executar programa
-    $ dotnet run
+    # Abrindo
+    $ Abra o arquivo index.html no navegador
 
 
 
