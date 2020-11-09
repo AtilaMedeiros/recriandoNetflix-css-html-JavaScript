@@ -1,0 +1,93 @@
+/* environment variables  */
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;  
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;  /* the elements of the box, do not exceed its size  */
+}
+
+/*base elements*/
+body{
+    background: var(--preta);
+    font-family: 'Source Sans Pro', Arial, sans-serif;  /*'Times New Roman', Times, serif;*/
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: Arial Black, times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*main film*/
+
+.filme-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-jedi.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .descricao{
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    text-align: justify; /*inclusao minha*/
+    font-size: 1em; /*inclusao minha*/
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 2.2rem; /*40px*/
+    font-family: 'Source Sans Pro', Arial, sans-serif; /*'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:white;
+
+    padding: 15px 40px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
