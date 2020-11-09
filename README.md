@@ -18,7 +18,7 @@
 
 ## 🔖&nbsp; Sobre
 
-Site desenvolvido com objetivo de por em prática o conhecimento adquirito no curso "Recriando a Interface do Netflix" da Digital Innovation One, ministrado pelo professor Felipe Aguiar. Além do site original, implementei nova funcionalidade no botão "trailer" e "Mais informações" utilizando CSS, HTML e JavaScript. Agora podemos assistir o trailer e saber um pouco mais sobre o filme.
+Site desenvolvido com objetivo de por em prática o conhecimento adquirido no curso "Recriando a Interface do Netflix" da Digital Innovation One, ministrado pelo professor Felipe Aguiar. Além do site original, implementei nova funcionalidade no botão "trailer" e "Mais informações" utilizando CSS, HTML e JavaScript. Agora podemos assistir o trailer e saber um pouco mais sobre o filme.
 
 
 ---
